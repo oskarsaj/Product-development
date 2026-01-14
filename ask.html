@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask a Question</title>
+  <style>
+    body {
+      background: radial-gradient(circle at top left, #222, #000);
+      font-family: "Inter", Arial, sans-serif;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    .container {
+      background: #111;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+      width: 90%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    input, textarea {
+      width: 100%;
+      background: #222;
+      border: 1px solid #333;
+      border-radius: 10px;
+      color: #fff;
+      padding: 1rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      outline: none;
+      resize: none;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #5ab0ff;
+    }
+
+    button {
+      background: #5ab0ff;
+      border: none;
+      border-radius: 10px;
+      padding: 0.8rem 2rem;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background: #0077ff;
+    }
+
+    p {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ask a Question</h1>
+
+    <!-- Replace this form action with your Google Form "action" URL -->
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSe3SF82IB19rz_cvibTteK7K_LY3zakP0ZXkyIVArKeP-COVQ/formResponse" method="POST" target="_self">
+      <textarea name="entry.1019289855" placeholder="Type your question here..." rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <p>Your question will appear on the answers page shortly.</p>
+  </div>
+</body>
+</html>
