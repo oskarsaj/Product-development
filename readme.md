@@ -150,9 +150,10 @@ google sheet, doing this will automatically create a linked list.
 
 
 
-
+Physical Parts of the project explained on this google drive https://drive.google.com/drive/folders/1Te68I9XJDQaTaWqkEPgFLiHX6Pc6vEcE?usp=drive_link
 
 &nbsp;    
 
 &nbsp;        
+
 
